@@ -27,19 +27,20 @@ body {
 
 }
 
-#pixel-board {
+#pixel-board { /* Adicionado as dimensões e quantidade de quadrados para a montagem da arte. #4 */
     margin-top: 20px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 3px;
-    padding: 20px;
+    padding: 5px;
 
 }
 
-.pixel {
+.pixel { /* Adicionado border, altura, largura nos requisitos #5 */
     background-color: white;
-
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
 }
