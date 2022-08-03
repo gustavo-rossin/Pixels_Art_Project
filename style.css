@@ -4,21 +4,22 @@
 }
 
 .box1 {
-    color: black;
-    background-color: red;
+    color: red;
+    background-color: black;
 }
 
 .box2 {
-    color: darkmagenta;
-    background-color: gray;
+    color: gray;
+    background-color: darkmagenta;
 }
 
 .box3 {
-    color: darkcyan;
-    background-color: blue;
+    color: blue;
+    background-color: darkcyan;
 }
 
 .box4 {
-    color: red;
-    
+    color: cyan;
+    background-color: red;
+
 }
