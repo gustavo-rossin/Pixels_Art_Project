@@ -1,0 +1,24 @@
+.color {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.box1 {
+    color: black;
+    background-color: red;
+}
+
+.box2 {
+    color: darkmagenta;
+    background-color: gray;
+}
+
+.box3 {
+    color: darkcyan;
+    background-color: blue;
+}
+
+.box4 {
+    color: red;
+    
+}
