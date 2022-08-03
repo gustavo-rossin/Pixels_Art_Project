@@ -1,9 +1,12 @@
+body {
+    background-color: purple;
+}
 .color {
     border: 1px solid black;
     display: inline-block;
 }
 
-.box1 {
+.box1 { /* Adicionado background colors #3 */
     color: red;
     background-color: black;
 }
@@ -21,5 +24,22 @@
 .box4 {
     color: cyan;
     background-color: red;
+
+}
+
+#pixel-board {
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 3px;
+    padding: 20px;
+
+}
+
+.pixel {
+    background-color: white;
 
 }
