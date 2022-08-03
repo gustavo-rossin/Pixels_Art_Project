@@ -1,28 +1,32 @@
 body {
-    background-color: purple;
+    background-color: grey;
 }
+
+h1 {
+    padding: 5px;
+}
+
 .color {
     border: 1px solid black;
     display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
 }
 
 .box1 { /* Adicionado background colors #3 */
-    color: red;
     background-color: black;
 }
 
 .box2 {
-    color: gray;
     background-color: darkmagenta;
 }
 
 .box3 {
-    color: blue;
     background-color: darkcyan;
 }
 
 .box4 {
-    color: cyan;
     background-color: red;
 
 }
