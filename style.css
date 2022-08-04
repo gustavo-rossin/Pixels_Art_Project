@@ -49,5 +49,15 @@ h1 {
 
 }
 
-
+#clear-board {
+    background-color: white;
+    height: 30px;
+    width: 50px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 1px;
+    font-size: 10px;
+    line-height: auto;
+    
+}
 

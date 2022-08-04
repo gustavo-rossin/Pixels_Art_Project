@@ -27,3 +27,12 @@ for (let i = 0; i < pixel.length; i += 1) {
   pixel[i] = pixel[i].addEventListener('click', pixelColorSelector);
 }
 
+// Criando botão que retorne a cor do quadro para a cor inicial #9
+btnReset = document.getElementById('clear-board');
+function removeColor() {
+  const removePixelColor = document.querySelectorAll('.pixel');
+  for (let i = 0; i < removePixelColor.length; i += 1) {
+    removePixelColor[i].style.backgroundColor = 'white';
+};
+}
+btnReset.addEventListener('click', removeColor);
